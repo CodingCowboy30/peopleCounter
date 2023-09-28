@@ -4,7 +4,7 @@
 }
 body {
     background-image: url(station.jpg);
-    background-size: cover;
+    background-size:cover;
     text-align: center;
     font-weight: bold;
 }
@@ -17,6 +17,12 @@ h1 {
 h2{
     font-size: 50px;
     color:var(--secondary-color)
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--main-color)
 }
 button{
     border: none;
@@ -33,4 +39,8 @@ button{
 
 #increment-btn{
     background: darkred;
+}
+
+#save-btn{
+    background: green;
 }
